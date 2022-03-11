@@ -8,9 +8,10 @@ For personal note-taking of useful commands
 ## Python Module
 - **Sibling directory:** 1) Single Method
   ```python
-  import sys
-  sys.path.append("..")
-  from sibling_directory.sibling_script import sibling_method
+  import os, sys
+  currentdir = os.path.dirname(os.path.realpath(__file__))
+  parentdir = os.path.dirname(currentdir)
+  sys.path.append(parentdir) 
   ```
 
   2) Modularization: Create `__init__.py` in the `sibling_directory` with the following
