@@ -23,5 +23,14 @@ For personal note-taking of useful commands
   from sibling_directory import sibling_method
   ```
 
+## Python Typing
+- **Set the same type as class in method's parameter:** 
+  ```
+  class Foo:
+    def foo_method(self, other_foo: "Foo"):
+        return "Hello World!"
+  ```
+  Using [forward declarations](https://peps.python.org/pep-0484/#forward-references) it is `eval`ed after the whole module is loaded, so it can evaluate to the `Foo` class.
+
 ## Python Environment
 - **Use Environment:** `source env/bin/activate`
