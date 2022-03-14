@@ -3,7 +3,6 @@ For personal note-taking of useful commands
 
 ## Git
 - **New branch:** `git checkout -b [name_of_your_new_branch]`
-- 
 
 ## Python Module
 - **Sibling directory:** 1) Single Method
@@ -31,6 +30,11 @@ For personal note-taking of useful commands
         return "Hello World!"
   ```
   Using [forward declarations](https://peps.python.org/pep-0484/#forward-references) it is `eval`ed after the whole module is loaded, so it can evaluate to the `Foo` class.
+
+## Using `requirements.txt` with pip
+
+- **Create `requirements.txt`:** `pip freeze > requirements.txt` 
+- **Install all dependencies:** `pip install -r requirements.txt`
 
 ## Python Environment
 - **Use Environment:** `source env/bin/activate`
