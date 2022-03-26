@@ -2,7 +2,24 @@
 For personal note-taking of useful commands
 
 ## Git
+### Standard
 - **New branch:** `git checkout -b [name_of_your_new_branch]`
+- **List branches:** `git branch`
+- **Stage files:** `git add <filename>`
+- **See changes:** `git diff <branchname>`
+- **Create PR:** `git push` 
+- **Delete branch:** `git branch -d <branchname>`
+- **Commit Modified File:** `git commit -am "commit message"`
+- **See modified files:** `git status`
+
+
+### Merge Conflicts
+- **Catch up with master on a feature branch:** `git merge master`
+- **Get rid of modification on file:** `git reset <filename>`
+- **Undo 1 commit:** `git reset HEAD~1`
+- **See commit log & hashes:** `git log`
+- **Unstage but keep all changes after this hash:** `git reset <commithash>`
+  - `--hard` to unstage + discard changes also
 
 ## Python Module
 - **Sibling directory:** 1) Single Method
