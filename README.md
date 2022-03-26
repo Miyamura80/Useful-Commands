@@ -37,4 +37,6 @@ For personal note-taking of useful commands
 - **Install all dependencies:** `pip install -r requirements.txt`
 
 ## Python Environment
-- **Use Environment:** `source env/bin/activate`
+- **Use Environment:** 
+  - Linux: `source env/bin/activate`
+  - Windows: `.\env\Scripts\activate.bat`
