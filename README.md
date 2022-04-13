@@ -39,10 +39,14 @@ For personal note-taking of useful commands
   from sibling_directory import sibling_method
   ```
 
-## Python mapping
+## Python functional
 - **Dictionary:** Doesn't exist. Use comprehension
   ```python
   my_dictionary = {k: f(v) for k, v in my_dictionary.items()}
+  ```
+- **Filter list:** 
+  ```python
+  filtered_list = filter(input_list, boolean_func)
   ```
 
 ## Python Typing
