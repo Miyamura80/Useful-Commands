@@ -20,8 +20,7 @@
   Takes `n` arguments, concatenates paths by "/" messily. Output string starts from first leading "/" string
   <details>
     <summary> Examples: </summary>
-  
-      ```python
+      
       import os
       # 1
       path = "/home"
@@ -45,7 +44,7 @@
       print(os.path.join(path, "User/Public/", "Documents", ""))
       # >>> /home/User/Public/Documents
       
-      ```
+
   
   </details>
 - 
