@@ -40,9 +40,20 @@ Use beautifulsoup whenever possible - faster & better designed, but only works f
   <summary> 👗 Selenium </summary>
   
   ```python
+  from selenium import webdriver
   
+  driver = webdriver.Chrome(
+      executable_path=CHROMEDRIVER_PATH
+  )
+
+  driver.get(url)
+  html = driver.page_source
+  
+  # Parsing with beautifulsoup
+  from bs4 import BeautifulSoup
+  soup = BeautifulSoup(html, 'html.parser')
   ```
-  
+  See the [Crypto Arbitrage](https://github.com/Miyamura80/Crypto_Arbitrage/blob/main/scrapers/scrape_data.py) scraper to see more details on detailed implementation
   
   
 </details>
