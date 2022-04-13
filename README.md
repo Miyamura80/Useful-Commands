@@ -39,9 +39,15 @@ For personal note-taking of useful commands
   from sibling_directory import sibling_method
   ```
 
+## Python mapping
+- **Dictionary:** Doesn't exist. Use comprehension
+  ```python
+  my_dictionary = {k: f(v) for k, v in my_dictionary.items()}
+  ```
+
 ## Python Typing
 - **Set the same type as class in method's parameter:** 
-  ```
+  ```python
   class Foo:
     def foo_method(self, other_foo: "Foo"):
         return "Hello World!"
