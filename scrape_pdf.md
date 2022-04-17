@@ -8,6 +8,7 @@ Exceedingly difficult. Poorly formatted file, compared to html. Avoid if at all 
 <details>
   
   <summary> Reading </summary>
+  
   ```python
   from PyPDF2 import PdfFileReader, PdfFileWriter
 
@@ -23,6 +24,7 @@ Exceedingly difficult. Poorly formatted file, compared to html. Avoid if at all 
 <details>
   
   <summary> Writing </summary>
+  
   ```python
   from PyPDF2 import PdfFileReader, PdfFileWriter
   writer = PdfFileWriter()
