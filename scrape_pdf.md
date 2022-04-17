@@ -3,6 +3,8 @@
 (Last updated: 17/04/2022)
 Exceedingly difficult. Poorly formatted file, compared to html. Avoid if at all possible.
 
+Solution: Combination of PyPDF2 and OCR e.g. `pytesseract`
+
 ## PyPDF2
 
 <details>
