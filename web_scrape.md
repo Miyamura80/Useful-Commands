@@ -2,6 +2,8 @@
 
 Use beautifulsoup whenever possible - faster & better designed, but only works for static sites. Selenium better for performing user operations, using drivers.
 
+When scraping website, check for `robots.txt` file - which defines the parts of a website that can be scraped.
+
 # Beautifulsoup
 
 <details>
