@@ -43,8 +43,15 @@
       path = "/home"
       print(os.path.join(path, "User/Public/", "Documents", ""))
       # >>> /home/User/Public/Documents
-      
-
-  
+        
   </details>
-- 
+- Glob module:
+  ```python
+  import glob
+  # All files and directories ending with .txt and that don't begin with a dot:
+  print(glob.glob("/home/adam/*.txt")) 
+  # All files and directories ending with .txt with depth of 2 folders, ignoring names beginning with a dot:
+  print(glob.glob("/home/adam/*/*.txt")) 
+  
+  >>> ['/home/adam/file1.txt', '/home/adam/file2.txt', .... ]
+  ```
