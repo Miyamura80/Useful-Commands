@@ -39,6 +39,14 @@ For personal note-taking of useful commands
   from sibling_directory import sibling_method
   ```
 
+## Python set
+- **Add**
+  ```python
+  my_set = {1,3,5,7}
+  my_set.add(8)
+  my_set.remote(8)
+  ```
+
 ## Python functional
 - **Dictionary:** Doesn't exist. Use comprehension
   ```python
