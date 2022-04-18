@@ -18,6 +18,11 @@ Solution: Combination of PyPDF2 and OCR e.g. `pytesseract`
   pdf = PdfFileReader(file_path)
  
   outline_dict = pdf.getOutlines() # Table of contents extraction
+  
+  named_destinations = pdf.getNamedDestinations() # :: Dict(str, PyPDF2.generic.Destination)
+  for k,v in named_destinations:
+    destination_page_num = pdf.getDestinationPageNumber(v) # :: int
+    pageObj = pdf.getPage(destination_page_num) # :: PyPDF2.pdf.PageObject
 
   ```
   
