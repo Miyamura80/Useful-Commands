@@ -47,6 +47,12 @@ For personal note-taking of useful commands
   my_set.remote(8)
   ```
 
+## Python DefaultDict
+```python
+from collections import defaultdict
+def_dict = defaultdict(<DATA_TYPE OF DEFAULT VAL>)
+```
+
 ## Python functional
 - **Dictionary:** Doesn't exist. Use comprehension
   ```python
