@@ -1,8 +1,13 @@
 # Latex
 
-Math Sets
+## Math Sets
 
-```python
+```latex
 \usepackage{amssymb}
 $\mathbb{R}$
+```
+
+## ArgMax / ArgMin
+```latex
+\operatorname*{argmin}_\theta f(x)
 ```
