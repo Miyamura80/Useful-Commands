@@ -51,6 +51,9 @@ For personal note-taking of useful commands
 ```python
 from collections import defaultdict
 def_dict = defaultdict(<DATA_TYPE OF DEFAULT VAL>)
+
+# Defaultdict of defaultdict
+defaultdict(lambda: defaultdict(int))
 ```
 
 ## Python functional
