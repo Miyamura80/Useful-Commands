@@ -11,7 +11,7 @@
 
 `torch.squeeze(n: int)`, `torch.tensor.squeeze(n: int)` wraps all element/arguments in a larger box 
 
-```
+```python
 >>> x = torch.tensor([1, 2, 3, 4])
 >>> torch.unsqueeze(x, 0)
 tensor([[ 1,  2,  3,  4]])
@@ -20,6 +20,18 @@ tensor([[ 1],
         [ 2],
         [ 3],
         [ 4]])
+```
+
+## Visualization
+
+1. PytorchViz: https://github.com/szagoruyko/pytorchviz
+2. Torchsummary (quick text summary)
+```python
+from torchvision import models
+from torchsummary import summary
+
+vgg = models.vgg16()
+summary(vgg, (3, 224, 224)
 ```
 
 
