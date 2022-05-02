@@ -34,7 +34,7 @@ vgg = models.vgg16()
 summary(vgg, (3, 224, 224)
 ```
 
-## Tensors
+## Tensor view
 
 `Tensor.view` is a dry reshape function
 
@@ -49,6 +49,13 @@ Reshapes tensor to a `4x4` tensor
 ### Meaning of `-1` parameter
 If there is any situation that you don't know how many rows you want but are sure of the number of columns, then you can specify this with a -1. (Note that you can extend this to tensors with more dimensions. Only one of the axis value can be -1). This is a way of telling the library: "give me a tensor that has these many columns and you compute the appropriate number of rows that is necessary to make this happen".
 
+
+## Softmax
+
+```python
+torch.nn.Softmax(dim=None)
+```
+The `dim` defines over which axis the probabilities should sum to 1.
 
 ## Numpy
 
