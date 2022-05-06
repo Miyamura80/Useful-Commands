@@ -73,3 +73,9 @@ for run_id, (lr,batch_size, shuffle) in enumerate(product(*param_values))::
 
 tb.close()
 ```
+
+Output:
+![Training Loss Graphs](https://user-images.githubusercontent.com/38335479/167227040-a4e8bd90-4d5b-4a5f-a886-6bc190ff785c.png)
+![Hyperparameter Graph](https://user-images.githubusercontent.com/38335479/167227051-73bda49f-c0b0-4750-8189-b09355d3d4d1.png)
+
+
