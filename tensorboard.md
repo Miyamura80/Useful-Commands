@@ -42,7 +42,7 @@ parameters = dict(
 param_values = [v for v in parameters.values()]
 print(param_values)
 
-for lr,batch_size, shuffle in product(*param_values):
+for run_id, (lr,batch_size, shuffle) in enumerate(product(*param_values)):
     print("run id:", run_id + 1)
     model = CNN().to(device)
     train_loader = torch.utils.data.DataLoader(train_set,batch_size = batch_size, shuffle = shuffle)
