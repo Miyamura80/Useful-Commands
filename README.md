@@ -84,3 +84,6 @@ defaultdict(lambda: defaultdict(int))
 - **Use Environment:** 
   - Linux: `source env/bin/activate`
   - Windows: `.\env\Scripts\activate.bat`
+- **Anaconda:**
+  - `conda env create -n <envName> --file requirements.txt`
+  - `conda activate <envName>`
