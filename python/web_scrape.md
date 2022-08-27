@@ -4,7 +4,7 @@ Use beautifulsoup whenever possible - faster & better designed, but only works f
 
 When scraping website, check for `robots.txt` file - which defines the parts of a website that can be scraped.
 
-# Beautifulsoup
+## Beautifulsoup
 
 <details>
   <summary> ✨ BeautifulSoup </summary>
@@ -36,7 +36,7 @@ When scraping website, check for `robots.txt` file - which defines the parts of 
 </details>
 
 
-# Selenium 
+## Selenium 
 
 <details>
   <summary> 👗 Selenium </summary>
@@ -59,3 +59,22 @@ When scraping website, check for `robots.txt` file - which defines the parts of 
   
   
 </details>
+
+# Augmentations
+
+## Regex 
+Find the specific information you want via regex:
+
+<details>
+  <summary> Regex </summary>
+  
+  ```python
+  result_by_id = soup.find("p")
+  time_read = re.findall('[0-9]+' ,result_by_id.text)
+  time_read_minutes = int(time_read[0])
+
+  ```
+   
+  
+</details>
+

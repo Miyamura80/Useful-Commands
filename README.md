@@ -21,6 +21,10 @@ For personal note-taking of useful commands
 - **Unstage but keep all changes after this hash:** `git reset <commithash>`
   - `--hard` to unstage + discard changes also
 
+## NextJS Sprint 
+- `npx create-next-app --example with-tailwindcss scrypto-bond-frontend`
+- `git init`
+
 ## Python Module
 - **Sibling directory:** 1) Single Method
   ```python
