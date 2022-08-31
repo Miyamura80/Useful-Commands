@@ -8,7 +8,11 @@ edges = [("A","B"),("...",""),("",""),("",""),("",""),("","")]
 G = nx.Graph(nodes=nodes)
 G.add_edges_from(edges)
 
+# Circular drawing
 nx.draw_circular(G, with_labels=True)
+
+# "learngraph-esk" drawing
+nx.draw_spring(G, with_labels=True)
 ```
 
 ## Removing & Degrees
